@@ -7,7 +7,7 @@ export class AppController {
 
   @Get()
   getHello(@Res() res): void {
-    res.send('hallo')
+    res.send('hallo');
     // return this.appService.getHello();
   }
 }
